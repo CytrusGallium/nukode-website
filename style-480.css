@@ -1,0 +1,43 @@
+@media(max-width: 480px) {
+    
+    *{
+        /* outline: 1px solid blue; */
+    }
+    
+    h4 {
+        display: none;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .blitz-sc {
+        background-size:contain;
+        background-position: center;
+    }
+
+    .contact-container {
+        margin: 2px;
+    }
+
+    .social-media-label {
+        font-size: 24px;
+        transform: translateY(-48px);
+    }
+
+    .contact-flex-box {
+        width: 80%;
+        height: 30%;
+    }
+
+    .centered-message {
+        position: absolute;
+        height: 100%;
+        margin: 8px;
+        padding: 4px;
+        transform: translateY(50%);
+        font-size: 24px;
+        font-weight: 600;
+    }
+}

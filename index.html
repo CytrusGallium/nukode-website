@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:image" content="Images/Media.png" />
+
+        <!-- Google Font : Chakra Petch -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;600&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/38fc372624.js" crossorigin="anonymous"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-480.css">
+        <link rel="stylesheet" href="style-768.css">
+
+        <!-- Script -->
+        <script src="script.js"></script>
+
+        <!-- Icon -->
+        <link rel="icon" type="image/x-icon" href="Images/Nukode.ico">
+
+        <title>Nukode</title>
+    </head>
+    <body>
+        
+        <section class="nukode-section welcome" id="welcome">
+            <div class="logo-container"><img src="Images/logo.svg" class="logo" id="logo"></div>
+            <h4 id="message"></h4>
+
+            <div class="triangle triangle-goto-creations" onclick="triangleGotoCreationsOnClick()"></div>
+            <div class="label label-goto-creations unselectable" onclick="triangleGotoCreationsOnClick()">TAKE A LOOK</div>
+
+            <div class="triangle triangle-goto-contact" onclick="triangleGotoContactOnClick()"></div>
+            <div class="label label-goto-contact unselectable" onclick="triangleGotoContactOnClick()">CONNECT</div>
+            
+            <div class="triangle triangle-goto-left" onclick="triangleGotoJoinOnClick()"></div>
+            <div class="label label-goto-join unselectable" onclick="triangleGotoJoinOnClick()">JOIN US</div>
+        </section>
+
+        <section class="nukode-section contact" id="contact">
+            <div class="triangle triangle-goto-left" onclick="triangleGotoWelcomeFromContactOnClick()"></div>
+            <div class="label label-goto-welcome-right unselectable" onclick="triangleGotoWelcomeFromContactOnClick()">HOME</div>
+            <div class="contact-flex-box">
+                <div class="social-media-label unselectable">Social Media</div>
+                <div class="contact-grid">
+                    <a class="contact-container" href="https://twitter.com/NukodePrime" target="_blank"> <i class="fa-brands fa-twitter"></i> </a>
+                    <a class="contact-container" href="https://discord.gg/AjNzwuRF2M" target="_blank"> <i class="fa-brands fa-discord"></i> </a>
+                    <a class="contact-container" href="https://www.youtube.com/channel/UCpSGwgYBKSSQR7Z1jc72GHQ" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                    <a class="contact-container" href="https://github.com/NukodePrime" target="_blank"> <i class="fa-brands fa-github"></i> </a>
+                    <a class="contact-container" href="https://www.instagram.com/nukode.io/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a class="contact-container" href="https://www.facebook.com/Nukode.io/" target="_blank"> <i class="fa-brands fa-facebook"></i> </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="nukode-section join" id="join">
+            <div class="triangle triangle-goto-contact" onclick="triangleGotoWelcomeFromJoinOnClick()"></div>
+            <div class="label label-goto-home-from-contact unselectable" onclick="triangleGotoWelcomeFromJoinOnClick()">HOME</div>
+            <p class="centered-message">There is currently no open positions at Nukode...</p>
+        </section>
+
+        <section class="nukode-section creations" id="creations">
+            <div class="card-container">
+                <div class="card">
+                    <h3>WispGUI</h3>
+                    <h6>1.6.7</h6>
+                    <p>User interface library for Unity, Full of Components, Utilities, Materials, Icons and Style Sheets.</p>
+                    <div class="screenShot wisp-sc"></div>
+                    <a href="http://u3d.as/2s4s" target="_blank" class="btn">Buy</a>
+                </div>
+                <div class="card">
+                    <h3>BlitzRig</h3>
+                    <h6>1.2.0</h6>
+                    <p>Procedural Lightning Generator for Unity configurable with more than 18 parameters.</p>
+                    <div class="screenShot blitz-sc"></div>
+                    <a href="http://u3d.as/2S2y" target="_blank" class="btn">Download</a>
+                </div>
+                <div class="card">
+                    <h3>Pong Chamber</h3>
+                    <h6>0.7.0</h6>
+                    <p>A Quantum themed modern remake of the first video game ever, PONG ! Now with abilities and multiplayer support.</p>
+                    <div class="screenShot pong-sc"></div>
+                    <a href="https://nukode.itch.io/pong-chamber" target="_blank" class="btn">Play</a>
+                </div>
+            </div>
+            
+            <div class="triangle triangle-goto-welcome" onclick="triangleGotoWelcomeOnClick()"></div>
+            <div class="label label-goto-welcome unselectable" onclick="triangleGotoWelcomeOnClick()">HOME</div>
+        </section>
+
+    </body>
+</html>
